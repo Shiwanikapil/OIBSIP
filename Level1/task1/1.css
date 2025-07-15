@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f5f5f5;
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+  font-weight: bold;
+  color: #c92c2c;
+}
+.hero {
+  background: url('https://t3.ftcdn.net/jpg/02/49/97/84/360_F_249978407_beNUpUEnfPXe5FkkXyoY8EDysbKyqYiH.jpg') no-repeat center center/cover;
+  text-align: center;
+  padding: 3rem 1rem;
+  color: #000; /* text color */
+}
+
+/* .hero { */
+  /* background: #fff2cc; */
+  /* text-align: center; */
+  /* padding: 3rem 1rem; */
+/* } */
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  margin: 0.5rem 0;
+}
+
+.hero button {
+  margin-top: 1rem;
+  padding: 0.7rem 1.5rem;
+  background: #00b386;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.features {
+  padding: 2rem;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  gap: 1rem;
+}
+
+.feature img {
+  width: 150px;
+  border-radius: 10px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  background: #eee;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.card {
+  width: 30%;
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #f0f0f0;
+}
+
+.stats {
+  text-align: center;
+  padding: 2rem 0;
+  background-color: #fdfdfd;
+}
+
+.stats img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 0;
+}
